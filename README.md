@@ -1,75 +1,17 @@
-# Nuxt Minimal Starter
+# 🗓️ What a Year!
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+What a Year! とは、1 年を振り返るための Web ツールです。今年の出来事を入力すると、あなただけのタイムラインが作成できます。
 
-## Setup
+# 🚀 On-boarding
 
-Make sure to install dependencies:
+## 開発環境の構築と開発の手順
 
-```bash
-# npm
-npm install
+1. 以下をを実行し、依存パッケージをインストールします
+   ```
+   npm install
+   ```
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+2. 以下を実行し、開発サーバーを起動します
+   ```
+   npm run dev
+   ```
