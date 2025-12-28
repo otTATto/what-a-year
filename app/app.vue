@@ -1,6 +1,16 @@
+<script setup lang="ts">
+const appConfig = useAppConfig();
+
+useHead({
+  title: appConfig.title,
+  bodyAttrs: {
+    class: 'font-sans text-neutral-700 bg-neutral-200'
+  },
+});
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
