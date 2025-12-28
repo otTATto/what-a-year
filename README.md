@@ -1,4 +1,4 @@
-# 🗓️ What a Year!
+# 🗓️ WHAT A YEAR! <img src="https://img.shields.io/badge/-Nuxt.js-00C58E.svg?logo=nuxt&style=plastic"> <img src="https://img.shields.io/badge/-Typescript-007ACC.svg?logo=typescript&style=plastic&logoColor=%23FFFFFF">
 
 ![](public/logo.webp)
 
@@ -24,3 +24,5 @@ What a Year! とは、1 年を振り返るための Web ツールです。今年
    ```
    npm run dev
    ```
+
+3. ブラウザで http://localhost:3000/ にアクセスします
