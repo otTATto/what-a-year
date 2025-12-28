@@ -28,6 +28,10 @@ const addEvent = () => {
     startDate: eventDate,
   });
 
+  // addEventName だけ空にする
+  // MEMO: addEventDate は、次の入力が前の入力した日付に近いことが予測されるため敢えて残す
+  addEventName.value = '';
+
   isAddEventModalOpen.value = false;
 }
 
