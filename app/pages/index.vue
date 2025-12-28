@@ -192,7 +192,7 @@ const getDayOfWeekClass = (dateString: string): string => {
       <!-- ロゴ: WHAT A YEAR! -->
       <img 
         src="/logo.webp"
-        class="max-w-[300px] mx-auto md:pt-[30px]"
+        class="max-w-[300px] mx-auto pt-[30px]"
       >
       <!-- 思い出アイテム -->
       <div v-if="events.length !== 0">
@@ -221,15 +221,18 @@ const getDayOfWeekClass = (dateString: string): string => {
               <div class="
                 w-[150px]
                 text-sm
-                flex items-end gap-x-3
+                flex items-center gap-x-3
               ">
+                <!-- YYYY.MM.DD -->
                 <div>
                   {{ formatDate(event.startDate) }}
                 </div>
+                <!-- 曜日 -->
                 <div 
                   :class="getDayOfWeekClass(event.startDate)"
                   class="
                     text-xs 
+                    mt-[1px]
                   "
                 >
                   {{ getDayOfWeek(event.startDate) }}
