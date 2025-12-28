@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { v4 as uuidv4 } from 'uuid';
 import type { EventItem } from '~/types/event'
 
 // 思い出リスト
@@ -23,7 +24,7 @@ const addEvent = () => {
   if (!eventDate || !eventName) return;
 
   events.value.push({
-    id: events.value.length.toString(),
+    id: uuidv4(),
     title: eventName,
     startDate: eventDate,
   });
