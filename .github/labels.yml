@@ -23,3 +23,15 @@
 - name: wont
   color: ffffff
   description: 必須ではない、エキストラな修正
+- name: env:iPhone/iPad
+  color: 4B4B4B
+  description: iPhone/iPad 関連
+- name: env:Android
+  color: 4B4B4B
+  description: Android 関連
+- name: env:Mac
+  color: 4B4B4B
+  description: Mac 関連
+- name: env:Windows
+  color: 4B4B4B
+  description: Windows 関連
