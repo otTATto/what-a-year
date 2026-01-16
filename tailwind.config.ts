@@ -2,7 +2,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Noto Sans JP"', 'system-ui', 'sans-serif'],
+        sans: [
+          'Hiragino Sans', 
+          'Hiragino Kaku Gothic ProN',
+          'Noto Sans JP', 
+          'system-ui', 
+          'sans-serif',
+        ],
       },
       colors: {
         'tato-green': '#769586',
